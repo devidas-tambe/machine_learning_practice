@@ -11,3 +11,7 @@ print(df)
 print(df.isnull().sum())
 
 print(df.dropna())
+
+df["age"]=df["age"].fillna(df["age"].mean(), inplace=True)
+df["salary"]=df["salary"].fillna(df["salary"].mean(), inplace=True)
+print(df)
