@@ -14,7 +14,7 @@ print(df)
 df["Date"] = pd.to_datetime(df["Date"], format="%d-%m-%y")
 
 df = df.sort_values(
-    ["Roll No", "Subject", "Date"],
+    ["Roll No", "Subject", "Date"], 
     ascending=[True, True, False]
 )
 
