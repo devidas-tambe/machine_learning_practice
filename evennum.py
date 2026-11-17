@@ -7,3 +7,4 @@ for i in list:
 
 
 print("even_count :",even_count)
+ 
